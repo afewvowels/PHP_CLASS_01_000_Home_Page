@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+html * {
+  font-family: 'Source Code Pro', monospace;
+}
+
+body {
+  background-color: #47434C;
+  color: #F7F7F7;
+  margin: 0;
+}
+
+fieldset {
+  margin-top: 15px;
+}
+
+footer {
+  width: 100%;
+}
+
+hr {
+  margin-top: 20px;
+}
+
+h4 {
+  font-size: 12px;
+}
+
+#fieldset_bg {
+  background-color: #39363D;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  padding: 0px 60px 0px 50px;
+  width: 250px;
+  height: 100%;
+  text-align: center;
+}
+
+.css_button {
+  background-color: #47434C;
+  color: #F7F7F7;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  text-decoration: none;
+  width: 200px;
+  border: 1px solid;
+  padding: 12px;
+}
