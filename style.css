@@ -11,7 +11,13 @@ body {
 }
 
 fieldset {
+  width: 250px;
+  margin: auto;
   margin-top: 15px;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 5px;
+  padding-bottom: 15px;
 }
 
 footer {
@@ -22,8 +28,19 @@ hr {
   margin-top: 20px;
 }
 
+h1 {
+  padding-left: 15px;
+  text-align: center;
+}
+
 h4 {
   font-size: 12px;
+}
+
+#sideNav {
+  float: left;
+  background-color: #39363D;
+  width: 0px;
 }
 
 #fieldset_bg {
@@ -34,7 +51,7 @@ h4 {
   left: 0;
   right: 0;
   padding: 0px 60px 0px 50px;
-  width: 250px;
+  width: 350px;
   height: 100%;
   text-align: center;
 }
@@ -43,11 +60,16 @@ h4 {
   background-color: #47434C;
   color: #F7F7F7;
   display: block;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
   text-align: center;
   text-decoration: none;
   width: 200px;
-  border: 1px solid;
+  border: 0px;
   padding: 12px;
+}
+
+.css_button:active {
+  background-color: #943100;
 }
