@@ -1,46 +1,69 @@
 <!doctype html>
 
 <html>
+
 <head>
   <meta charset='utf-8' />
-
   <link rel='stylesheet' href='./style.css' />
-  <!--This link contains the Google web font link that is used by this website-->
-  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,600" rel="stylesheet" />
-
+  <link href="https://fonts.googleapis.com/css?family=Mukta:400,600" rel="stylesheet">
   <script type='text/javascript' src='./scripts.js'></script>
 
-  <title>CSIS 3760 - Homepage - Keith Smith</title>
+  <title>Keith Smith</title>
 </head>
 
 <body>
-  <!-- <nav>
-    <div id='sideNav'>
-      <ul>
-        <li>Home</li>
-        <li>Assignments</li>
-        <li>About Me</li>
-        <li>Contact</li>
-      </ul>
+  <nav id='main_menu'>
+    <div id='main_menu_icon'>
+      <div id='menu_bar_1' class='menu_bar'></div>
+      <div id='menu_bar_2' class='menu_bar'></div>
+      <div id='menu_bar_3' class='menu_bar'></div>
     </div>
-  </nav> -->
-  <section>
-    <div id='fieldset_bg'>
-      <div id='content_wrapper'>
-        <h1>Keith Smith</h1>
-        <fieldset id='csis_3760_fieldset'>
-          <legend>CSIS 3760</legend>
-          <a href='/e_commerce/Assignment_1/display_errors.php' class='css_button'>Assignment #1</a>
-          <a href='/e_commerce/Assignment_2/index.html' class='css_button'>Assignment #2</a>
-        </fieldset>
+    <div id='main_menu_wrapper'>
+      <div class='main_menu_item' id='menu_item_1'><span>CSIS 1570</span></div>
+      <div class='main_menu_item' id='menu_item_2'><span>CSIS 3726</span></div>
+      <div class='main_menu_item' id='menu_item_3'><span>CSIS 3760</span></div>
+    </div>
+    <h2>Keith Smith</h2>
+  </nav>
 
-        <fieldset id='csis_1570_fieldset'>
-          <legend>CSIS 1570</legend>
-          <a href='/CSIS_1570/Assignment_2-3/index.html' class='css_button'>Assigments #2 & #3</a>
-        </fieldset>
-        <!-- <input type='button' value='menu' onclick='showMenu()' /> -->
-      </div>
+  <section id='welcome'>
+    <div id='welcome_div'>
+      <h1>Welcome</h1>
     </div>
   </section>
+
+  <section id='csis_1570'>
+      <div id='csis_1570_wrapper'>
+        <fieldset>
+          <legend><h3>CSIS 1570</h3></legend>
+          <div class='csis_1570_item' id='csis_1570_1'><a href='./CSIS_1570/Assignment_2-3/index.html' target='_blank'>ASSIGNMENTS #2-3</a></div>
+          <!-- <div class='csis_1570_item' id='csis_1570_2'><a href='./csis_3726.html'>ASSIGNMENT #2</a></div>
+          <div class='csis_1570_item' id='csis_1570_3'><a href='./csis_3760.html'>ASSIGNMENT #3</a></div> -->
+        </fieldset>
+      </div>
+  </section>
+
+  <section id='csis_3726'>
+      <div id='csis_3726_wrapper'>
+        <fieldset>
+          <legend><h3>CSIS 3726</h3></legend>
+          <div class='csis_3726_item' id='csis_3726_1'><a href='' target='_blank'>ASSIGNMENT #1</a></div>
+          <div class='csis_3726_item' id='csis_3726_2'><a href='' target='_blank'>ASSIGNMENT #2</a></div>
+          <div class='csis_3726_item' id='csis_3726_3'><a href='' target='_blank'>ASSIGNMENT #3</a></div>
+        </fieldset>
+      </div>
+  </section>
+
+  <section id='csis_3760'>
+      <div id='csis_3760_wrapper'>
+        <fieldset>
+          <legend><h3>CSIS 3726</h3></legend>
+          <div class='csis_3760_item' id='csis_3760_1'><a href='./e_commerce/Assignment_1/display_errors.php' target='_blank'>ASSIGNMENT #1</a></div>
+          <div class='csis_3760_item' id='csis_3760_2'><a href='./e_commerce/Assignment_2/index.html' target='_blank'>ASSIGNMENT #2</a></div>
+          <!-- <div class='csis_3760_item' id='csis_3760_3'><a href='./csis_3760.html'>ASSIGNMENT #3</a></div> -->
+        </fieldset>
+      </div>
+  </section>
 </body>
+
 </html>

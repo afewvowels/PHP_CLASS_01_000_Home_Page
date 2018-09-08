@@ -1,0 +1,84 @@
+@charset "utf-8";
+
+html * {
+  font-family: 'Source Code Pro', monospace;
+}
+
+body {
+  background-color: #47434C;
+  color: #F7F7F7;
+  margin: 0;
+}
+
+fieldset {
+  width: 250px;
+  margin: auto;
+  margin-top: 15px;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 5px;
+  padding-bottom: 15px;
+}
+
+footer {
+  width: 100%;
+}
+
+hr {
+  margin-top: 20px;
+}
+
+h1 {
+  padding-left: 15px;
+  text-align: center;
+}
+
+h4 {
+  font-size: 12px;
+}
+
+#fieldset_bg {
+  background-color: #39363D;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  padding: 0px 60px 0px 50px;
+  width: 350px;
+  height: 100%;
+  text-align: center;
+}
+
+#content_wrapper {
+  background-color: #39363D;
+  padding: 0px 60px 0px 50px;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  width: 350px;
+}
+
+#csis_1570_fieldset {
+  margin-bottom: 35px;
+}
+
+.css_button {
+  background-color: #47434C;
+  color: #F7F7F7;
+  display: block;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+  text-decoration: none;
+  width: 200px;
+  border: 0px;
+  padding: 12px;
+}
+
+.css_button:active {
+  background-color: #943100;
+}
