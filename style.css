@@ -195,7 +195,6 @@ h3 {
 .main_menu_item span:hover {
   background-color: #FAF5F4;
   color: #9300FF;
-  /* transition: .2s; */
   cursor: pointer;
 }
 
