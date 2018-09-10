@@ -17,25 +17,7 @@ html, body {
   background-color: #0D0C0C;
 }
 
-#csis_1570_wrapper {
-  margin: 0 auto;
-  padding: 0;
-  background-color: #1EED00;
-  color: #FAF5F4;
-  height: 100vh;
-  width: 100vw;
-  /* right: -1500px; */
-  position: fixed;
-  top: 0;
-  text-align: center;
-  /* visibility: hidden; */
-  -webkit-transform: translateX(100vw);
-  transform: translateX(100vw);
-  transition: 0.8s;
-  transition-timing-function: ease;
-}
-
-#csis_1570_wrapper fieldset {
+fieldset {
   margin: 0 auto;
   margin-top: 80px;
   padding-bottom: 25px;
@@ -46,84 +28,38 @@ html, body {
   transition: 0.5s;
 }
 
-#csis_1570_wrapper h3 {
+h1 {
+  color: #FAF5F4;
+  font-size: 9em;
+}
+
+h2 {
+  margin: 0 auto;
+  color: #FAF5F4;
+  font-size: 2.5em;
+  display: inline;
+  position: absolute;
+  right: 15px;
+  top: 0;
+}
+
+h3 {
   font-size: 3em;
   margin: 0 auto;
   padding-left: 9px;
   padding-right: 9px;
+}
+
+#csis_1570_wrapper {
+  background-color: #1EED00;
 }
 
 #csis_3726_wrapper {
-  margin: 0 auto;
-  padding: 0;
   background-color: #FF0025;
-  color: #FAF5F4;
-  height: 100vh;
-  width: 100vw;
-  /* right: -1500px; */
-  position: fixed;
-  top: 0;
-  text-align: center;
-  /* visibility: hidden; */
-
-  -webkit-transform: translateX(100vw);
-  transform: translateX(100vw);
-  transition: 0.8s;
-  transition-timing-function: ease;
-}
-
-#csis_3726_wrapper fieldset {
-  margin: 0 auto;
-  margin-top: 80px;
-  padding-bottom: 25px;
-  width: 330px;
-  border: 4px solid;
-  opacity: 0;
-  transform: translateY(-30vh);
-  transition: 0.5s;
-}
-
-#csis_3726_wrapper h3 {
-  font-size: 3em;
-  margin: 0 auto;
-  padding-left: 9px;
-  padding-right: 9px;
 }
 
 #csis_3760_wrapper {
-  margin: 0 auto;
-  padding: 0;
   background-color: #FFAC00;
-  color: #FAF5F4;
-  height: 100vh;
-  width: 100vw;
-  /* right: -1500px; */
-  position: fixed;
-  top: 0;
-  text-align: center;
-  /* visibility: hidden; */
-  -webkit-transform: translateX(100vw);
-  transform: translateX(100vw);
-  transition: 0.8s;
-  transition-timing-function: ease;
-}
-
-#csis_3760_wrapper fieldset {
-  margin: 0 auto;
-  margin-top: 80px;
-  padding-bottom: 25px;
-  width: 330px;
-  border: 4px solid;
-  opacity: 0;
-  transform: translateY(-30vh);
-  transition: 0.5s;
-}
-
-#csis_3760_wrapper h3 {
-  font-size: 3em;
-  margin: 0 auto;
-  padding-left: 9px;
-  padding-right: 9px;
 }
 
 #main_menu {
@@ -137,17 +73,9 @@ html, body {
   right: 0;
   top: 0;
   z-index: 15;
-  /* background-color: #0D0C0C; */
 }
 
 #main_menu h2 {
-  margin: 0 auto;
-  color: #FAF5F4;
-  font-size: 2.5em;
-  display: inline;
-  position: absolute;
-  right: 15px;
-  top: 0;
 }
 
 #main_menu_icon {
@@ -186,11 +114,6 @@ html, body {
   text-align: center;
 }
 
-#welcome h1 {
-  color: #FAF5F4;
-  font-size: 9em;
-}
-
 #welcome_div {
   position: fixed;
   padding-top: 100px;
@@ -202,58 +125,48 @@ html, body {
   z-index: -1;
 }
 
-.csis_1570_item {
+.assignment_item {
   margin-bottom: 15px;
 }
 
-.csis_1570_item a {
+.assignment_link {
   text-decoration: none;
   color: #FAF5F4;
   font-size: 2em;
   padding-left: 20px;
   padding-right: 20px;
+}
+
+.assignment_link:hover {
+  background-color: #FAF5F4;
+  transition: 0.3s;
+}
+
+.class_wrapper {
+  margin: 0 auto;
+  padding: 0;
+  color: #FAF5F4;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  text-align: center;
+  -webkit-transform: translateX(100vw);
+  transform: translateX(100vw);
+  transition: 0.8s;
+  transition-timing-function: ease;
 }
 
 .csis_1570_item a:hover {
   color: #1EED00;
-  background-color: #FAF5F4;
-  transition: 0.3s;
-}
-
-.csis_3726_item {
-  margin-bottom: 15px;
-}
-
-.csis_3726_item a {
-  text-decoration: none;
-  color: #FAF5F4;
-  font-size: 2em;
-  padding-left: 20px;
-  padding-right: 20px;
 }
 
 .csis_3726_item a:hover {
   color: #FF0025;
-  background-color: #FAF5F4;
-  transition: 0.3s;
-}
-
-.csis_3760_item {
-  margin-bottom: 15px;
-}
-
-.csis_3760_item a {
-  text-decoration: none;
-  color: #FAF5F4;
-  font-size: 2em;
-  padding-left: 20px;
-  padding-right: 20px;
 }
 
 .csis_3760_item a:hover {
   color: #FFAC00;
-  background-color: #FAF5F4;
-  transition: 0.3s;
 }
 
 .menu_bar {
