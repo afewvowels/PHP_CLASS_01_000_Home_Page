@@ -75,9 +75,6 @@ h3 {
   z-index: 15;
 }
 
-#main_menu h2 {
-}
-
 #main_menu_icon {
   margin: 0 auto;
   position: fixed;
@@ -241,21 +238,21 @@ h3 {
   -webkit-transform: scale(.88,.88);
   transform: scale(.88,.88);
   z-index: -999;
-  opacity: .5;
+  opacity: .1;
 }
 
 .animate_out #csis_3726_wrapper {
   -webkit-transform: scale(.88,.88);
   transform: scale(.88,.88);
   z-index: -999;
-  opacity: .5;
+  opacity: .1;
 }
 
 .animate_out #csis_3760_wrapper {
   -webkit-transform: scale(.88,.88);
   transform: scale(.88,.88);
   z-index: -999;
-  opacity: .5;
+  opacity: .1;
 }
 
 .animate_reset #csis_1570_wrapper {
@@ -316,5 +313,5 @@ h3 {
   -webkit-transform: scale(.85, .85);
   transform: scale(.85, .85);
   height: 88vh;
-  opacity: 0;
+  opacity: 0.0;
 }
